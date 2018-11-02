@@ -50,7 +50,7 @@ console.log("Javascript Connected");
 		  url: queryURL,
 		  method: "GET"
 		}).then(function(response) {
-		  $("#movies-view").text(JSON.stringify(response));
+		  $("#movies-json").text(JSON.stringify(response));
 		});
 	}
 

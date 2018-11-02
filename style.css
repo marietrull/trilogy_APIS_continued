@@ -17,6 +17,13 @@ h1,
 #movies-view {
 	display: flex;
 	justify-content: space-around;
+	overflow: scroll;
+}
+
+#movies-json {
+	border: solid black 1px;
+	background-color: white;
+	overflow: scroll;
 }
 
 h1, 
